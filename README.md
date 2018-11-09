@@ -1,6 +1,6 @@
 # IPC: A Graph Data Set Compiled from International Planning Competitions
 
-This repository provides the data set, named IPC, for the evaluation of machine learning methods on graphs. It contains 2439 labeled graphs, presplit for training/validation/testing. The node counts have a highly skewed distribution, ranging from less than ten to a few hundred thousands. This data set was initially used to study graph neural networks for AI planning; see [Ma et al. (2018)](#Ma2018). It serves as a benchmark data set for graph representation learning and other machine learning tasks.
+This repository provides the data set, named IPC, for the evaluation of machine learning methods on graphs. It contains 2439 labeled graphs, presplit for training/validation/testing. The node counts have a highly skewed distribution, ranging from less than ten to a few hundred thousands. The labels correspond to a total time it takes each planner to solve the corresponding planning task; see [Katz et al. (2018)](#Katz2018) and [(Sievers et al. 2019)](#Sievers2019). The graphs in this data set were initially used to study graph neural networks for AI planning; see [Ma et al. (2018)](#Ma2018). The entire data set serves as a benchmark data set for graph representation learning and other machine learning tasks.
 
 ## <a id="background"></a>Background
 
@@ -52,6 +52,14 @@ This data set may be used for a variety of tasks, two examples given in the foll
 ## Citing This Data Set
 
 ```
+@InProceedings{sievers-et-al-aaai2019,
+  author =       "Silvan Sievers, Michael Katz, Shirin Sohrabi, Horst Samulowitz, and Patrick Ferber",
+  title =        "Deep Learning for Cost-Optimal Planning: Task-Dependent Planner Selection",
+  booktitle =    "Proceedings of the Thirty-Third {AAAI} Conference on
+                  Artificial Intelligence ({AAAI} 2019)",
+  year =         "2019"
+}
+
 @Article{Ma2018,
   author  = {Tengfei Ma and Patrick Ferber and Siyu Huo and Jie Chen and Michael Katz},
   title   = {Adaptive Planner Scheduling with Graph Neural Networks},
@@ -66,6 +74,8 @@ This data set may be used for a variety of tasks, two examples given in the foll
 - <a name="Katz2018"></a>Michael Katz, Shirin Sohrabi, Horst Samulowitz, and Silvan Sievers. [Delfi: Online planner selection for cost-optimal planning](https://ipc2018-classical.bitbucket.io/planner-abstracts/teams_23_24.pdf). In Ninth International Planning Competition (IPC-9): planner abstracts, 2018.
 - <a name="Pochter2011"></a>Nir Pochter, Aviv Zohar, and Jeffrey S. Rosenschein. [Exploiting problem symmetries in state-based planners](http://icaps11.icaps-conference.org/proceedings/hdip/pochter-et-al.pdf). In AAAI, 2011.
 - <a name="Sievers2017"></a>Silvan Sievers, Gabriele Röger, Martin Wehrle, and Michael Katz. [Structural symmetries of the lifted representation of classical planning tasks](http://ai.cs.unibas.ch/papers/sievers-et-al-icaps2017wshsdip-a.pdf). In ICAPS 2017 Workshop on Heuristics and Search for Domain-independent Planning, 2017.
+- <a name="Sievers2019"></a>Silvan Sievers,  Michael Katz, Shirin Sohrabi, Horst Samulowitz, and Patrick Ferber. [Deep Learning for Cost-Optimal Planning: Task-Dependent Planner Selection](). In The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19), 2019.
+
 
 ## Contributors (In Alphabetical Order)
 

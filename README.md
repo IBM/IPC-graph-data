@@ -54,8 +54,8 @@ This data set may be used for a variety of tasks, two examples given in the foll
 ```
 @Article{Ma2018,
   author  = {Tengfei Ma and Patrick Ferber and Siyu Huo and Jie Chen and Michael Katz},
-  title   = {Adaptive Planner Scheduling with Graph Neural Networks},
-  journal = {ArXiv e-prints arXiv:1809.02630},
+  title   = {Online Planner Selection with Graph Neural Networks and Adaptive Scheduling},
+  journal = {ArXiv e-prints arXiv:1811.00210},
   year    = {2018},
 }
 
@@ -70,7 +70,7 @@ This data set may be used for a variety of tasks, two examples given in the foll
 ## Bibliography
 
 - <a name="Katz2018"></a>Michael Katz, Shirin Sohrabi, Horst Samulowitz, and Silvan Sievers. [Delfi: Online planner selection for cost-optimal planning](https://ipc2018-classical.bitbucket.io/planner-abstracts/teams_23_24.pdf). In Ninth International Planning Competition (IPC-9): planner abstracts, 2018.
-- <a name="Ma2018"></a>Tengfei Ma, Patrick Ferber, Siyu Huo, Jie Chen, and Michael Katz. [Adaptive planner scheduling with graph neural networks](https://arxiv.org/pdf/1811.00210.pdf). ArXiv e-prints arXiv:1811.00210, 2018.
+- <a name="Ma2018"></a>Tengfei Ma, Patrick Ferber, Siyu Huo, Jie Chen, and Michael Katz. [Online Planner Selection with Graph Neural Networks and Adaptive Scheduling](https://arxiv.org/pdf/1811.00210.pdf). ArXiv e-prints arXiv:1811.00210, 2018.
 - <a name="Pochter2011"></a>Nir Pochter, Aviv Zohar, and Jeffrey S. Rosenschein. [Exploiting problem symmetries in state-based planners](http://icaps11.icaps-conference.org/proceedings/hdip/pochter-et-al.pdf). In AAAI, 2011.
 - <a name="Sievers2017"></a>Silvan Sievers, Gabriele Röger, Martin Wehrle, and Michael Katz. [Structural symmetries of the lifted representation of classical planning tasks](http://ai.cs.unibas.ch/papers/sievers-et-al-icaps2017wshsdip-a.pdf). In ICAPS 2017 Workshop on Heuristics and Search for Domain-independent Planning, 2017.
 - <a name="Sievers2019"></a>Silvan Sievers, Michael Katz, Shirin Sohrabi, Horst Samulowitz, and Patrick Ferber. [Deep Learning for Cost-Optimal Planning: Task-Dependent Planner Selection](). In AAAI, 2019.

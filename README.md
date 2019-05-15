@@ -52,6 +52,13 @@ This data set may be used for a variety of tasks, two examples given in the foll
 ## Citing This Data Set
 
 ```
+@InProceedings{Ferber2019,
+  author    = {Patrick Ferber and Tengfei Ma and Siyu Huo and Jie Chen and Michael Katz},
+  title     = {{IPC}: A Benchmark Data Set for Learning with Graph-Structured Data},
+  booktitle = {ICML 2019 Workshop on Learning and Reasoning with Graph-Structured Data},
+  year.     = {2019},
+}
+
 @Article{Ma2018,
   author  = {Tengfei Ma and Patrick Ferber and Siyu Huo and Jie Chen and Michael Katz},
   title   = {Online Planner Selection with Graph Neural Networks and Adaptive Scheduling},

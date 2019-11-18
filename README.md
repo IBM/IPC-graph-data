@@ -55,7 +55,7 @@ This data set may be used for a variety of tasks, two examples given in the foll
 @InProceedings{Ma2020,
   author    = {Tengfei Ma and Patrick Ferber and Siyu Huo and Jie Chen and Michael Katz},
   title     = {Online Planner Selection with Graph Neural Networks and Adaptive Scheduling},
-  booktitle = {Proceedings of the Thirty-FouMa et al. 2020rth {AAAI} Conference on Artificial Intelligence},
+  booktitle = {Proceedings of the Thirty-Fourth {AAAI} Conference on Artificial Intelligence},
   year      = {2020},
 }
 
